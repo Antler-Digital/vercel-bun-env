@@ -27,13 +27,12 @@ Ultimately, the best approach depends on your team's specific needs, infrastruct
 
 ## Prerequisites
 
-- [Bun](https://bun.sh/)
-- [Vercel CLI](https://vercel.com/docs/cli)
+- Install Bun [Bun](https://bun.sh/)
+- Install Vercel CLI [Vercel CLI](https://vercel.com/docs/cli)
 
 ## Setup
 
 1. Create a new Vercel project either via the website or CLI (below). This will create an empty project that you can interact with. By default, Vercel sets each project up with three environments: development, preview and production, but you can fine tune these to match your needs.
-
 ```bash
 vercel project add vercel-env
 ```
@@ -91,7 +90,6 @@ await $`vercel env pull --environment=${ENV} ${TEMP_FILE}`;
 Then we can add a new script to our `package.json` file to run this script.
 
 ```json
-// package.json
 
 {
   "scripts": {
@@ -222,7 +220,6 @@ if (values.var) {
 Add a new script to the `package.json` file to run this script.
 
 ```json
-// package.json
 
 {
   "scripts": {
@@ -341,7 +338,6 @@ if (lines?.length) {
 Add a new script to the `package.json` file to run this script.
 
 ```json
-// package.json
 
 {
   "scripts": {
@@ -404,7 +400,6 @@ if (values.var?.length) {
 Add a new script to the `package.json` file to run this script.
 
 ```json
-// package.json
 
 {
   "scripts": {
@@ -510,7 +505,6 @@ try {
 Add a new script to the `package.json` file to run this script.
 
 ```json
-// package.json
 
 {
   "scripts": {
